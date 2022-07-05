@@ -1,4 +1,7 @@
 # C语言参考定义示例（图像算子部分）
+
+<p id="701"></p>
+
 ## 7.1 创建初始通信器
 ### C语法：
 ```c++
@@ -24,6 +27,9 @@ STATUS_INVALID_ARGUMENT：表示其他参数不合法。
 STATUS_INTERNAL_ERROR: 表示内部调用操作出错。
 
 ---------
+
+<p id="702"></p>
+
 ## 7.2 根据进程号数组创建通信器
 ### C语法：
 ```c++
@@ -45,6 +51,9 @@ STATUS_INVALID_ARGUMENT：表示其他参数不合法。
 STATUS_INTERNAL_ERROR: 表示内部调用操作出错。
 
 ---------
+
+<p id="703"></p>
+
 ## 7.3 复制通信器
 ### C语法：
 ```c++
@@ -62,6 +71,9 @@ STATUS_INVALID_ARGUMENT：表示其他参数不合法。
 STATUS_INTERNAL_ERROR: 表示内部调用操作出错。
 
 ---------
+
+<p id="704"></p>
+
 ## 7.4 销毁通信器
 ### C语法：
 ```c++
@@ -77,6 +89,9 @@ STATUS_INVALID_ARGUMENT：表示其他参数不合法。
 STATUS_INTERNAL_ERROR: 表示内部调用操作出错。
 
 ---------
+
+<p id="705"></p>
+
 ## 7.5 查询进程数量
 ### C语法：
 ```c++
@@ -94,6 +109,9 @@ STATUS_INVALID_ARGUMENT：表示其他参数不合法。
 STATUS_INTERNAL_ERROR: 表示内部调用操作出错。
 
 ---------
+
+<p id="706"></p>
+
 ## 7.6 查询当前进程的进程号
 ### C语法：
 ```c++
@@ -111,6 +129,9 @@ STATUS_INVALID_ARGUMENT：表示其他参数不合法。
 STATUS_INTERNAL_ERROR: 表示内部调用操作出错。
 
 ---------
+
+<p id="707"></p>
+
 ## 7.7 查询异步操作的完成状态
 ### C语法：
 ```c++
@@ -132,6 +153,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_INTERNAL_ERROR: 表示内部调用操作出错。
 
 ---------
+
+<p id="708"></p>
+
 ## 7.8 等待异步操作完成
 ### C语法：
 ```c++
@@ -144,6 +168,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_INTERNAL_ERROR: 表示内部调用操作出错。
 
 ---------
+
+<p id="709"></p>
+
 ## 7.9 发送
 ### C语法：
 ```c++
@@ -166,6 +193,9 @@ STATUS_INVALID_ARGUMENT：表示其他参数不合法。
 STATUS_INTERNAL_ERROR: 表示内部调用操作出错。
 
 ---------
+
+<p id="710"></p>
+
 ## 7.10 创建初始通信器
 ### C语法：
 ```c++
@@ -188,6 +218,9 @@ STATUS_INVALID_ARGUMENT：表示其他参数不合法。
 STATUS_INTERNAL_ERROR: 表示内部调用操作出错。
 
 ---------
+
+<p id="711"></p>
+
 ## 7.11 广播
 ### C语法：
 ```c++
@@ -234,6 +267,9 @@ op_comm_broadcast (comm, input, 0, output);
  */
 ```
 ---------
+
+<p id="712"></p>
+
 ## 7.12 全局规约
 ### C语法：
 ```c++
@@ -291,6 +327,9 @@ op_comm_all_reduce (comm, input, SUM, output);
 ```
 
 ---------
+
+<p id="713"></p>
+
 ## 7.13 规约
 ### C语法：
 ```c++
@@ -351,6 +390,9 @@ op_comm_reduce (comm, input, SUM, 1, output);
  */
 ```
 ---------
+
+<p id="714"></p>
+
 ## 7.14 全局聚集
 ### C语法：
 ```c++
@@ -402,6 +444,9 @@ op_comm_all_gather (comm, input, output);
 ```
 
 ---------
+
+<p id="715"></p>
+
 ## 7.15 聚集
 ### C语法：
 ```c++
@@ -451,6 +496,9 @@ op_comm_gather (comm, input, 1, output);
  */
 ```
 ---------
+
+<p id="716"></p>
+
 ## 7.16 分散
 ### C语法：
 ```c++
@@ -499,6 +547,8 @@ op_comm_scatter (comm, input, 1, output);
  */
 ```
 ---------
+
+<p id="717"></p>
 
 ## 7.17 规约分散
 ### C语法：
@@ -557,6 +607,9 @@ op_comm_reduce_scatter (comm, input, SUM, output);
  */
 ```
 ---------
+
+<p id="718"></p>
+
 ## 7.18 所有对所有
 ### C语法：
 ```c++
@@ -601,6 +654,9 @@ op_comm_all_to_all (comm, input, output);
 */
 ```
 ---------
+
+<p id="719"></p>
+
 ## 7.19 屏障
 ### C语法：
 ```c++
@@ -615,6 +671,9 @@ STATUS_COMM_ NOT_EXIST：表示通信器不存在。
 STATUS_INTERNAL_ERROR: 表示内部调用操作出错。
 
 ---------
+
+<p id="720"></p>
+
 ## 7.20 异步发送
 ### C语法：
 ```c++
@@ -639,6 +698,9 @@ STATUS_INVALID_ARGUMENT：表示其他参数不合法。
 STATUS_INTERNAL_ERROR: 表示内部调用操作出错。
 
 ---------
+
+<p id="721"></p>
+
 ## 7.21 异步接收
 ### C语法：
 ```c++
@@ -663,6 +725,9 @@ STATUS_INVALID_ARGUMENT：表示其他参数不合法。
 STATUS_INTERNAL_ERROR: 表示内部调用操作出错。
 
 ---------
+
+<p id="722"></p>
+
 ## 7.22 异步广播
 ### C语法：
 ```c++
@@ -711,6 +776,9 @@ op_comm_broadcast_async (comm, input, 0, output);
  */
 ```
 ---------
+
+<p id="723"></p>
+
 ## 7.23 异步全局规约
 ### C语法：
 ```c++
@@ -770,6 +838,9 @@ op_comm_all_reduce_async (comm, input, SUM, output);
  */
 ```
 ---------
+
+<p id="724"></p>
+
 ## 7.24 异步规约
 ### C语法：
 ```c++
@@ -832,6 +903,9 @@ op_comm_reduce_async (comm, input, SUM, 1, output);
  */
 ```
 ---------
+
+<p id="725"></p>
+
 ## 7.25 异步全局聚集
 ### C语法：
 ```c++
@@ -884,6 +958,9 @@ op_comm_all_gather_async (comm, input, output);
  */
 ```
 ---------
+
+<p id="726"></p>
+
 ## 7.26 异步聚集
 ### C语法：
 ```c++
@@ -935,6 +1012,9 @@ op_comm_gather_async (comm, input, 1, output);
  */
 ```
 ---------
+
+<p id="727"></p>
+
 ## 7.27 异步分散
 ### C语法：
 ```c++
@@ -985,6 +1065,9 @@ op_comm_scatter_async (comm, input, 1, output);
  */
 ```
 ---------
+
+<p id="728"></p>
+
 ## 7.28 异步规约分散
 ### C语法：
 ```c++
@@ -1044,6 +1127,9 @@ op_comm_reduce_scatter_async (comm, input, SUM, output);
  */
 ```
 ---------
+
+<p id="729"></p>
+
 ## 7.29 异步所有对所有
 ### C语法：
 ```c++
@@ -1090,6 +1176,9 @@ op_comm_all_to_all_async (comm, input, output);
 */
 ```
 ---------
+
+<p id="730"></p>
+
 ## 7.30 异步屏障
 ### C语法：
 ```c++
