@@ -1,4 +1,7 @@
 # C语言参考定义示例（优化器算子部分）
+
+<p id="701"></p>
+
 ## 7.1 SGD优化器
 ### C语法：
 ```c++
@@ -18,6 +21,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_TYPE_MISMATCH: 表示参数的数据类型不一致。
 
 ---------
+
+<p id="702"></p>
+
 ## 7.2 Momentum优化器
 ### C语法：
 ```c++
@@ -45,6 +51,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_TYPE_MISMATCH: 表示参数的数据类型不一致。
 
 ---------
+
+<p id="703"></p>
+
 ## 7.3 AdaGrad优化器
 ### C语法：
 ```c++
@@ -68,6 +77,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_TYPE_MISMATCH: 表示参数的数据类型不一致。
 
 ---------
+
+<p id="704"></p>
+
 ## 7.4 AdaDelta优化器
 ### C语法：
 ```c++
@@ -99,6 +111,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_TYPE_MISMATCH: 表示参数的数据类型不一致。
 
 ---------
+
+<p id="705"></p>
+
 ## 7.5 RMSProp优化器
 ### C语法：
 ```c++
@@ -132,6 +147,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_TYPE_MISMATCH: 表示参数的数据类型不一致。
 
 ---------
+
+<p id="706"></p>
+
 ## 7.6 CenteredRMSProp优化器
 ### C语法：
 ```c++
@@ -169,6 +187,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_TYPE_MISMATCH: 表示参数的数据类型不一致。
 
 ---------
+
+<p id="707"></p>
+
 ## 7.7 Adam优化器
 ### C语法：
 ```c++
@@ -206,6 +227,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_TYPE_MISMATCH: 表示参数的数据类型不一致。
 
 ---------
+
+<p id="708"></p>
+
 ## 7.8 AdaMax优化器
 ### C语法：
 ```c++
