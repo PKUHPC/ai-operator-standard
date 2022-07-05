@@ -1,4 +1,7 @@
 # C语言参考定义示例（图像算子部分）
+
+<p id="701"></p>
+
 ## 7.1 调整图像亮度
 ### C语法：
 ```c++
@@ -16,6 +19,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_INVALID_ARGUMENT：参数设置超过合法范围，例如brightness_factor＞1。
 
 ----------
+
+<p id="702"></p>
+
 ## 7.2 调整图像对比度
 ### C语法：
 ```c++
@@ -34,6 +40,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_INVALID_ARGUMENT：参数设置超过合法范围，例如contrast_factor＜0。
 
 ---------
+
+<p id="703"></p>
+
 ## 7.3 图像伽马变换（幂律变换）
 ### C语法：
 ```c++
@@ -54,6 +63,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_INVALID_ARGUMENT：参数设置超过合法范围，例如gamma＜0。
 
 ---------
+
+<p id="704"></p>
+
 ## 7.4 调整图像色调
 ### C语法：
 ```c++
@@ -71,6 +83,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 
 ---------
+
+<p id="705"></p>
+
 ## 7.5 调整图像饱和度
 ### C语法：
 ```c++
@@ -89,6 +104,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_INVALID_ARGUMENT：参数设置超过合法范围。
 
 ---------
+
+<p id="706"></p>
+
 ## 7.6 随机调整图像亮度
 ### C语法：
 ```c++
@@ -111,6 +129,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_INVALID_ARGUMENT：参数设置超过合法范围。
 
 ---------
+
+<p id="707"></p>
+
 ## 7.7 随机调整图像对比度
 ### C语法：
 ```c++
@@ -133,6 +154,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_INVALID_ARGUMENT：参数设置超过合法范围。
 
 ---------
+
+<p id="708"></p>
+
 ## 7.8 调随机调整图像色调
 ### C语法：
 ```c++
@@ -154,6 +178,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 
 ---------
+
+<p id="709"></p>
+
 ## 7.9 随机调整图像饱和度
 ### C语法：
 ```c++
@@ -175,6 +202,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 
 ---------
+
+<p id="710"></p>
+
 ## 7.10 RGB图像转灰度图像
 ### C语法：
 ```c++
@@ -191,6 +221,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_UNINITIALIZED_OBJECT：表示输入张量对象不合法。
 
 ---------
+
+<p id="711"></p>
+
 ## 7.11 灰度图像转RGB图像
 ### C语法：
 ```c++
@@ -207,6 +240,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_UNINITIALIZED_OBJECT：表示输入张量对象不合法。
 
 ---------
+
+<p id="712"></p>
+
 ## 7.12 RGB图像转HSV图像
 ### C语法：
 ```c++
@@ -223,6 +259,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_UNINITIALIZED_OBJECT：表示输入张量对象不合法。
 
 ---------
+
+<p id="713"></p>
+
 ## 7.13 HSV图像转RGB图像
 ### C语法：
 ```c++
@@ -239,6 +278,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_UNINITIALIZED_OBJECT：表示输入张量对象不合法。
 
 ---------
+
+<p id="714"></p>
+
 ## 7.14 RGB图像转YUV图像
 ### C语法：
 ```c++
@@ -255,6 +297,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_UNINITIALIZED_OBJECT：表示输入张量对象不合法。
 
 ---------
+
+<p id="715"></p>
+
 ## 7.15 YUV图像转RGB图像
 ### C语法：
 ```c++
@@ -271,6 +316,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_UNINITIALIZED_OBJECT：表示输入张量对象不合法。
 
 ---------
+
+<p id="716"></p>
+
 ## 7.16 RGB图像转YIQ图像
 ### C语法：
 ```c++
@@ -287,6 +335,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_UNINITIALIZED_OBJECT：表示输入张量对象不合法。
 
 ---------
+
+<p id="717"></p>
+
 ## 7.17 YIQ图像转RGB图像
 ### C语法：
 ```c++
@@ -303,6 +354,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_UNINITIALIZED_OBJECT：表示输入张量对象不合法。
 
 ---------
+
+<p id="718"></p>
+
 ## 7.18 图像数据类型转换
 ### C语法：
 ```c++
@@ -320,6 +374,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 
 ---------
+
+<p id="719"></p>
+
 ## 7.19 图像水平翻转
 ### C语法：
 ```c++
@@ -335,6 +392,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 
 ---------
+
+<p id="720"></p>
+
 ## 7.20 图像垂直翻转
 ### C语法：
 ```c++
@@ -350,6 +410,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 
 ---------
+
+<p id="721"></p>
+
 ## 7.21 图像随机水平翻转
 ### C语法：
 ```c++
@@ -370,6 +433,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_INVALID_ARGUMENT：参数设置超过合法范围。
 
 ---------
+
+<p id="722"></p>
+
 ## 7.22 图像随机垂直翻转
 ### C语法：
 ```c++
@@ -390,6 +456,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_INVALID_ARGUMENT：参数设置超过合法范围。
 
 ---------
+
+<p id="723"></p>
+
 ## 7.23 图像转置
 ### C语法：
 ```c++
@@ -405,6 +474,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 
 ---------
+
+<p id="724"></p>
+
 ## 7.24 图像逆时针旋转90°
 ### C语法：
 ```c++
@@ -423,6 +495,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_INVALID_ARGUMENT：参数设置超过合法范围。
 
 ---------
+
+<p id="725"></p>
+
 ## 7.25 中心裁剪操作
 ### C语法：
 ```c++
@@ -443,6 +518,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_INVALID_ARGUMENT：参数设置超过合法范围。
 
 ---------
+
+<p id="726"></p>
+
 ## 7.26 随机裁剪操作
 ### C语法：
 ```c++
@@ -463,6 +541,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_INVALID_ARGUMENT：参数设置超过合法范围。
 
 ---------
+
+<p id="727"></p>
+
 ## 7.27 图像裁剪操作
 ### C语法：
 ```c++
@@ -487,6 +568,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_INVALID_ARGUMENT：参数设置超过合法范围。
 
 ---------
+
+<p id="728"></p>
+
 ## 7.28 图像填充操作
 ### C语法：
 ```c++
@@ -511,6 +595,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_INVALID_ARGUMENT：参数设置超过合法范围。
 
 ---------
+
+<p id="729"></p>
+
 ## 7.29 图像填充裁剪操作
 ### C语法：
 ```c++
@@ -531,6 +618,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_INVALID_ARGUMENT：参数设置超过合法范围。
 
 ---------
+
+<p id="730"></p>
+
 ## 7.30 图像缩放操作
 ### C语法：
 ```c++
@@ -557,6 +647,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_INVALID_ARGUMENT：参数设置超过合法范围。
 
 ---------
+
+<p id="731"></p>
+
 ## 7.31 图像高斯模糊
 ### C语法：
 ```c++
@@ -577,6 +670,9 @@ STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 STATUS_INVALID_ARGUMENT：参数设置超过合法范围。
 
 ---------
+
+<p id="732"></p>
+
 ## 7.32 图像梯度计算
 ### C语法：
 ```c++
@@ -594,6 +690,9 @@ STATUS_SUCCESS：表示操作成功。
 STATUS_TYPE_MISMATCH：表示参数的数据类型不一致。
 
 ---------
+
+<p id="733"></p>
+
 ## 7.33 图像归一化
 ### C语法：
 ```c++
